@@ -1,0 +1,26 @@
+body{
+    background-image:url("Logo.jfif");
+    background-repeat: no-repeat;
+    background-size: 1366px 650px; 
+}
+#outer-box{
+    width:250px;
+    border: 1px rgb(128, 128, 128) solid;
+    background-color: black;
+    height:100px;
+}
+#con{
+    width:250px;
+    border: 1px rgb(128, 128, 128) solid;background-color: white;
+}
+#out,#oute,#outer{
+    margin-left:553px;
+    margin-top:100px;
+    display:none;
+}
+#start{
+    margin-left: 553px;
+    margin-top:230px;
+    width:250px;
+    text-align:center;
+}

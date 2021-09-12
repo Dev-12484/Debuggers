@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>House Points</title>
+        <link rel="stylesheet" href="House Points.css">
+        <script src="House.js"></script>
+    </head>
+    <body id="bod">
+
+        <div id="start">
+
+            <h1>House Points</h1>
+            <button style="height:50px;width:100px;color:white;background-color:red;">View Table</button>
+            <button onclick="edit()" style="height:50px;width:100px;color:white;background-color:red;">Edit Points</button>
+        </div>
+
+        <div id="out">
+        <div id="outer-box">
+            <button onclick="tostud()">Back</button>
+            <h1 style="color:white;background-color:black;margin-bottom:15px;font-size:20px;margin-left:100px;">Points</h1>
+        </div>
+
+        <div id="con">
+            <p style="margin-left:20px;">House</p>
+            <select style="margin-left:20px;width:210px;height:25px;" required="required">
+                <option>Oryx</option>
+                <option>Flamingo</option>
+                <option>Falcon</option>
+                <option>Gazelle</option>
+            </select>
+            <p style="margin-left:20px;">Operation</p>
+            <select style="margin-left:20px;width:210px;height:25px;" required="required">
+                <option>Addition</option>
+                <option>Subtraction</option>
+            </select>
+            <p style="margin-left:20px;">Points</p>
+            <form style="margin-left:20px;">
+                <input type="number" style="width:200px;height:15px;" placeholder="Points" required="required">
+            </form><br>
+            <button style="margin-left:75px;margin-bottom:2px;width:100px;height:40px;color:white;background-color:red;">Go To Table</button> <br><br>
+        </div>
+    </div>
+    <div id="oute">
+        <div id="outer-box">
+            <button onclick="tostart()">Back</button>
+            <h1 style="color:white;background-color:black;margin-bottom:15px;font-size:20px;margin-left:60px;">Teacher Details</h1>
+        </div>
+
+        <div id="con">
+            <form style="margin-left:20px;">
+                <p>Teacher Name</p>
+                <input type="text" style="width:200px;height:15px;" placeholder="Name" required="required">
+                <p>Teacher Email ID</p>
+                <input type="text" style="width:200px;height:15px;" placeholder="Email ID" required="required">
+                <p>Reason</p>
+                <input type="text" style="width:200px;height:15px;" placeholder="Reason" required="required">
+            </form>
+            <br><br><button onclick="ttos()" style="margin-left:75px;margin-bottom:2px;width:100px;height:40px;color:white;background-color:red;">Go Ahead</button> <br><br>
+        </div>
+    </div>
+
+    <div id="outer">
+        <div id="outer-box">
+            <button onclick="toteach()">Back</button>
+            <h1 style="color:white;background-color:black;margin-bottom:15px;font-size:20px;margin-left:60px;">Student Details</h1>
+        </div>
+
+        <div id="con">
+            <form style="margin-left:20px;">
+                <p>Student Name</p>
+                <input type="text" style="width:200px;height:15px;" placeholder="Name" required="required">
+                <p>Student Class</p>
+                <input type="text" style="width:200px;height:15px;" placeholder="Class" required="required">
+                <p>Student Email ID</p>
+                <input type="text" style="width:200px;height:15px;" placeholder="Email ID" required="required">
+            </form>
+            <br><br><button onclick="stop()" style="margin-left:75px;margin-bottom:2px;width:100px;height:40px;color:white;background-color:red;">Change Points</button> <br><br>
+        </div>
+    </div>
+
+
+    </body>
+</html>
